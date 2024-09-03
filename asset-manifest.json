@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/woodsiersumo/rbt.github.io.git/static/css/main.19981cb7.css",
+    "main.js": "/woodsiersumo/rbt.github.io.git/static/js/main.d8daefd0.js",
+    "static/js/453.c1719acd.chunk.js": "/woodsiersumo/rbt.github.io.git/static/js/453.c1719acd.chunk.js",
+    "index.html": "/woodsiersumo/rbt.github.io.git/index.html",
+    "main.19981cb7.css.map": "/woodsiersumo/rbt.github.io.git/static/css/main.19981cb7.css.map",
+    "main.d8daefd0.js.map": "/woodsiersumo/rbt.github.io.git/static/js/main.d8daefd0.js.map",
+    "453.c1719acd.chunk.js.map": "/woodsiersumo/rbt.github.io.git/static/js/453.c1719acd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19981cb7.css",
+    "static/js/main.d8daefd0.js"
+  ]
+}
