@@ -249,7 +249,7 @@ export const lvl1Questions = [
   { term: "grandfather", definition: "祖父 (そふ)" },
   { term: "baby", definition: "赤ちゃん (あかちゃん)" },
   { term: "teenager", definition: "ティーンエイジャー" },
-  { term: "classmate", definition: "同級生 (どうきゅうせい)" },,
+  { term: "classmate", definition: "同級生 (どうきゅうせい)" },
   { term: "college", definition: "カレッジ" },
   { term: "library", definition: "図書館 (としょかん)" },
   { term: "bookstore", definition: "書店 (しょてん)" },

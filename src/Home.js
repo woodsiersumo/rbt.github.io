@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 
 const Home = ({ onStartQuiz }) => {
-  const [language, setLanguage] = React.useState('english')
   const [difficulty, setDifficulty] = React.useState('lvl1');
   const [numQuestions, setNumQuestions] = React.useState(10);
 
