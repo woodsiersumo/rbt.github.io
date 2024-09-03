@@ -1,0 +1,113 @@
+* {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  place-items: center;
+}
+
+body {
+  margin: 10px;
+  background-color: lightcoral;
+}
+.App {
+  text-align: center;
+
+}
+
+h1, h2, h5, p {
+  color:white;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+.home, .diffselect {
+  margin: 100px 50px;
+}
+
+.diffselect {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style-type: none;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 5px 0;
+}
+
+.diffselect li {
+  color: white;
+  border-radius: 5px;
+  flex: 1 1 calc(10% - 20px); 
+}
+
+@media (max-width: 768px) {
+  .flex-list li {
+    flex: 1 1 calc(50% - 20px);
+}
+
+  .flex-list li {
+    flex: 1 1 calc(100% - 20px);
+  }
+}
+
+.diffbutton, .actdiff, .numq, .actnum {
+  padding: 20px 40px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background-color: #ea9800;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.genbtn {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 25px;
+  display: block;
+  margin: auto;
+}
+
+.diffbutton:hover, .numq:hover, .genbtn:hover {
+  background-color: #d4d230;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+.diffbutton:active, .actdiff, .numq:active, .actnum , .genbtn:active {
+  background-color: #d4d230;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: translateY(2px);
+}
+
+
+.diffbutton:focus {
+  outline: none;
+}
+
+.questions {
+  padding: 24px 24px;
+  margin: 30px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #ea9800;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+
